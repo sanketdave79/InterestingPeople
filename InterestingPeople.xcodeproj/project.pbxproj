@@ -13,7 +13,6 @@
 		454E86751899178500495F94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 454E86731899178500495F94 /* InfoPlist.strings */; };
 		454E86771899178500495F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E86761899178500495F94 /* main.m */; };
 		454E867B1899178500495F94 /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E867A1899178500495F94 /* SDAppDelegate.m */; };
-		454E867E1899178500495F94 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454E867C1899178500495F94 /* Main_iPhone.storyboard */; };
 		454E86811899178500495F94 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454E867F1899178500495F94 /* Main_iPad.storyboard */; };
 		454E86841899178500495F94 /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E86831899178500495F94 /* SDViewController.m */; };
 		454E86861899178500495F94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454E86851899178500495F94 /* Images.xcassets */; };
@@ -22,6 +21,22 @@
 		454E868F1899178500495F94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454E866E1899178500495F94 /* UIKit.framework */; };
 		454E86971899178500495F94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 454E86951899178500495F94 /* InfoPlist.strings */; };
 		454E86991899178500495F94 /* InterestingPeopleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E86981899178500495F94 /* InterestingPeopleTests.m */; };
+		454E86A31899179700495F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454E86A21899179700495F94 /* Main.storyboard */; };
+		454E86AA189918AF00495F94 /* SDSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E86A5189918AF00495F94 /* SDSettingsViewController.m */; };
+		454E86AB189918AF00495F94 /* SDViewByClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E86A7189918AF00495F94 /* SDViewByClickViewController.m */; };
+		454E86AC189918AF00495F94 /* SDViewByShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E86A9189918AF00495F94 /* SDViewByShakeViewController.m */; };
+		454E86AE189918EC00495F94 /* settingsImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 454E86AD189918EC00495F94 /* settingsImage.jpg */; };
+		457B50E018A265D60071E8D1 /* gandhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 457B50DF18A265D60071E8D1 /* gandhi.png */; };
+		45B1F74B189B8CFC0077F6CA /* SDWikipediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B1F74A189B8CFC0077F6CA /* SDWikipediaViewController.m */; };
+		45D2A6EE18B0FFD9007ABA6D /* Font License.txt.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45D2A6EB18B0FFD9007ABA6D /* Font License.txt.txt */; };
+		45D2A6EF18B0FFD9007ABA6D /* Ketchum Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45D2A6EC18B0FFD9007ABA6D /* Ketchum Hollow.ttf */; };
+		45D2A6F018B0FFD9007ABA6D /* Ketchum.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45D2A6ED18B0FFD9007ABA6D /* Ketchum.ttf */; };
+		45DCA05318A4A65700A9D157 /* SDViewBySwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DCA05218A4A65700A9D157 /* SDViewBySwipeViewController.m */; };
+		45E8C39718A8F86500E2B29A /* SDMoreAppsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E8C39618A8F86500E2B29A /* SDMoreAppsCell.m */; };
+		45E8C39A18A8F90200E2B29A /* SDMoreAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E8C39918A8F90200E2B29A /* SDMoreAppsViewController.m */; };
+		45E8C39E18A906B700E2B29A /* libFlurry_4.3.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E8C39D18A906B700E2B29A /* libFlurry_4.3.2.a */; };
+		45E8C3A018A9075600E2B29A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E8C39F18A9075600E2B29A /* CFNetwork.framework */; };
+		45E8C3A218A907C700E2B29A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E8C3A118A907C700E2B29A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +60,6 @@
 		454E86781899178500495F94 /* InterestingPeople-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InterestingPeople-Prefix.pch"; sourceTree = "<group>"; };
 		454E86791899178500495F94 /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAppDelegate.h; sourceTree = "<group>"; };
 		454E867A1899178500495F94 /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDelegate.m; sourceTree = "<group>"; };
-		454E867D1899178500495F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		454E86801899178500495F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		454E86821899178500495F94 /* SDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
 		454E86831899178500495F94 /* SDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDViewController.m; sourceTree = "<group>"; };
@@ -55,6 +69,31 @@
 		454E86941899178500495F94 /* InterestingPeopleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InterestingPeopleTests-Info.plist"; sourceTree = "<group>"; };
 		454E86961899178500495F94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		454E86981899178500495F94 /* InterestingPeopleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterestingPeopleTests.m; sourceTree = "<group>"; };
+		454E86A21899179700495F94 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		454E86A4189918AF00495F94 /* SDSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSettingsViewController.h; sourceTree = "<group>"; };
+		454E86A5189918AF00495F94 /* SDSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSettingsViewController.m; sourceTree = "<group>"; };
+		454E86A6189918AF00495F94 /* SDViewByClickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDViewByClickViewController.h; sourceTree = "<group>"; };
+		454E86A7189918AF00495F94 /* SDViewByClickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDViewByClickViewController.m; sourceTree = "<group>"; };
+		454E86A8189918AF00495F94 /* SDViewByShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDViewByShakeViewController.h; sourceTree = "<group>"; };
+		454E86A9189918AF00495F94 /* SDViewByShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDViewByShakeViewController.m; sourceTree = "<group>"; };
+		454E86AD189918EC00495F94 /* settingsImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = settingsImage.jpg; sourceTree = "<group>"; };
+		457B50DF18A265D60071E8D1 /* gandhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gandhi.png; sourceTree = "<group>"; };
+		45B1F749189B8CFC0077F6CA /* SDWikipediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWikipediaViewController.h; sourceTree = "<group>"; };
+		45B1F74A189B8CFC0077F6CA /* SDWikipediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWikipediaViewController.m; sourceTree = "<group>"; };
+		45D2A6E918B0FBE3007ABA6D /* todo */ = {isa = PBXFileReference; lastKnownFileType = text; path = todo; sourceTree = "<group>"; };
+		45D2A6EB18B0FFD9007ABA6D /* Font License.txt.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Font License.txt.txt"; sourceTree = "<group>"; };
+		45D2A6EC18B0FFD9007ABA6D /* Ketchum Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ketchum Hollow.ttf"; sourceTree = "<group>"; };
+		45D2A6ED18B0FFD9007ABA6D /* Ketchum.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ketchum.ttf; sourceTree = "<group>"; };
+		45DCA05118A4A65700A9D157 /* SDViewBySwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDViewBySwipeViewController.h; sourceTree = "<group>"; };
+		45DCA05218A4A65700A9D157 /* SDViewBySwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDViewBySwipeViewController.m; sourceTree = "<group>"; };
+		45E8C39518A8F86500E2B29A /* SDMoreAppsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMoreAppsCell.h; sourceTree = "<group>"; };
+		45E8C39618A8F86500E2B29A /* SDMoreAppsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMoreAppsCell.m; sourceTree = "<group>"; };
+		45E8C39818A8F90200E2B29A /* SDMoreAppsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMoreAppsViewController.h; sourceTree = "<group>"; };
+		45E8C39918A8F90200E2B29A /* SDMoreAppsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMoreAppsViewController.m; sourceTree = "<group>"; };
+		45E8C39C18A906B700E2B29A /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		45E8C39D18A906B700E2B29A /* libFlurry_4.3.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.3.2.a; sourceTree = "<group>"; };
+		45E8C39F18A9075600E2B29A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		45E8C3A118A907C700E2B29A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +101,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E8C3A218A907C700E2B29A /* SystemConfiguration.framework in Frameworks */,
+				45E8C3A018A9075600E2B29A /* CFNetwork.framework in Frameworks */,
 				454E866D1899178500495F94 /* CoreGraphics.framework in Frameworks */,
 				454E866F1899178500495F94 /* UIKit.framework in Frameworks */,
 				454E866B1899178500495F94 /* Foundation.framework in Frameworks */,
+				45E8C39E18A906B700E2B29A /* libFlurry_4.3.2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +145,9 @@
 		454E86691899178500495F94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				45E8C3A118A907C700E2B29A /* SystemConfiguration.framework */,
+				45E8C39F18A9075600E2B29A /* CFNetwork.framework */,
+				45E8C39B18A906B700E2B29A /* Flurry */,
 				454E866A1899178500495F94 /* Foundation.framework */,
 				454E866C1899178500495F94 /* CoreGraphics.framework */,
 				454E866E1899178500495F94 /* UIKit.framework */,
@@ -116,10 +161,25 @@
 			children = (
 				454E86791899178500495F94 /* SDAppDelegate.h */,
 				454E867A1899178500495F94 /* SDAppDelegate.m */,
-				454E867C1899178500495F94 /* Main_iPhone.storyboard */,
+				454E86A21899179700495F94 /* Main.storyboard */,
 				454E867F1899178500495F94 /* Main_iPad.storyboard */,
+				45E8C39518A8F86500E2B29A /* SDMoreAppsCell.h */,
+				45E8C39618A8F86500E2B29A /* SDMoreAppsCell.m */,
+				45E8C39818A8F90200E2B29A /* SDMoreAppsViewController.h */,
+				45E8C39918A8F90200E2B29A /* SDMoreAppsViewController.m */,
 				454E86821899178500495F94 /* SDViewController.h */,
 				454E86831899178500495F94 /* SDViewController.m */,
+				45D2A6E918B0FBE3007ABA6D /* todo */,
+				454E86A4189918AF00495F94 /* SDSettingsViewController.h */,
+				454E86A5189918AF00495F94 /* SDSettingsViewController.m */,
+				45DCA05118A4A65700A9D157 /* SDViewBySwipeViewController.h */,
+				45DCA05218A4A65700A9D157 /* SDViewBySwipeViewController.m */,
+				454E86A6189918AF00495F94 /* SDViewByClickViewController.h */,
+				454E86A7189918AF00495F94 /* SDViewByClickViewController.m */,
+				454E86A8189918AF00495F94 /* SDViewByShakeViewController.h */,
+				454E86A9189918AF00495F94 /* SDViewByShakeViewController.m */,
+				45B1F749189B8CFC0077F6CA /* SDWikipediaViewController.h */,
+				45B1F74A189B8CFC0077F6CA /* SDWikipediaViewController.m */,
 				454E86851899178500495F94 /* Images.xcassets */,
 				454E86711899178500495F94 /* Supporting Files */,
 			);
@@ -129,6 +189,9 @@
 		454E86711899178500495F94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45D2A6EA18B0FFD9007ABA6D /* ketchum */,
+				457B50DF18A265D60071E8D1 /* gandhi.png */,
+				454E86AD189918EC00495F94 /* settingsImage.jpg */,
 				454E86721899178500495F94 /* InterestingPeople-Info.plist */,
 				454E86731899178500495F94 /* InfoPlist.strings */,
 				454E86761899178500495F94 /* main.m */,
@@ -153,6 +216,25 @@
 				454E86951899178500495F94 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45D2A6EA18B0FFD9007ABA6D /* ketchum */ = {
+			isa = PBXGroup;
+			children = (
+				45D2A6EB18B0FFD9007ABA6D /* Font License.txt.txt */,
+				45D2A6EC18B0FFD9007ABA6D /* Ketchum Hollow.ttf */,
+				45D2A6ED18B0FFD9007ABA6D /* Ketchum.ttf */,
+			);
+			path = ketchum;
+			sourceTree = "<group>";
+		};
+		45E8C39B18A906B700E2B29A /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				45E8C39C18A906B700E2B29A /* Flurry.h */,
+				45E8C39D18A906B700E2B29A /* libFlurry_4.3.2.a */,
+			);
+			path = Flurry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +314,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D2A6EE18B0FFD9007ABA6D /* Font License.txt.txt in Resources */,
+				457B50E018A265D60071E8D1 /* gandhi.png in Resources */,
+				454E86AE189918EC00495F94 /* settingsImage.jpg in Resources */,
+				45D2A6F018B0FFD9007ABA6D /* Ketchum.ttf in Resources */,
 				454E86811899178500495F94 /* Main_iPad.storyboard in Resources */,
+				45D2A6EF18B0FFD9007ABA6D /* Ketchum Hollow.ttf in Resources */,
 				454E86861899178500495F94 /* Images.xcassets in Resources */,
-				454E867E1899178500495F94 /* Main_iPhone.storyboard in Resources */,
 				454E86751899178500495F94 /* InfoPlist.strings in Resources */,
+				454E86A31899179700495F94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +341,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E8C39A18A8F90200E2B29A /* SDMoreAppsViewController.m in Sources */,
+				454E86AC189918AF00495F94 /* SDViewByShakeViewController.m in Sources */,
+				454E86AB189918AF00495F94 /* SDViewByClickViewController.m in Sources */,
+				454E86AA189918AF00495F94 /* SDSettingsViewController.m in Sources */,
 				454E86771899178500495F94 /* main.m in Sources */,
+				45DCA05318A4A65700A9D157 /* SDViewBySwipeViewController.m in Sources */,
 				454E86841899178500495F94 /* SDViewController.m in Sources */,
 				454E867B1899178500495F94 /* SDAppDelegate.m in Sources */,
+				45E8C39718A8F86500E2B29A /* SDMoreAppsCell.m in Sources */,
+				45B1F74B189B8CFC0077F6CA /* SDWikipediaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,14 +379,6 @@
 				454E86741899178500495F94 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		454E867C1899178500495F94 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				454E867D1899178500495F94 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		454E867F1899178500495F94 /* Main_iPad.storyboard */ = {
@@ -396,6 +482,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InterestingPeople/InterestingPeople-Prefix.pch";
 				INFOPLIST_FILE = "InterestingPeople/InterestingPeople-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sanket/Documents/GitHub\\ Projects/InterestingPeople/Flurry",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -409,6 +499,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InterestingPeople/InterestingPeople-Prefix.pch";
 				INFOPLIST_FILE = "InterestingPeople/InterestingPeople-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sanket/Documents/GitHub\\ Projects/InterestingPeople/Flurry",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -475,6 +569,7 @@
 				454E869E1899178500495F94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		454E869F1899178500495F94 /* Build configuration list for PBXNativeTarget "InterestingPeopleTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +578,7 @@
 				454E86A11899178500495F94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
