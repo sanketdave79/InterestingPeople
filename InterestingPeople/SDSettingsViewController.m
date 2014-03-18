@@ -169,6 +169,7 @@
             [categoryStatus replaceObjectAtIndex:0 withObject:@"active"];
             [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"leaders"];
             NSLog(@"Leaders Category ON , Category status array after on : %@",categoryStatus);
+            [self labelStriker:self.leadersLabel withStatus:NO];
             
            
         }
@@ -177,6 +178,7 @@
             [categoryStatus replaceObjectAtIndex:0 withObject:@"inactive"];
             [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"leaders"];
             NSLog(@"Leaders Category OFF , Category status array after on : %@",categoryStatus);
+            [self labelStriker:self.leadersLabel withStatus:YES];
             
         }
 
@@ -236,10 +238,17 @@
             if ([[NSUserDefaults standardUserDefaults] boolForKey:@"leaders"]==YES)
             {
                 sw.on = YES;
+                [self labelStrikeRemover];
+                
+                [self labelStriker:self.leadersLabel withStatus:NO];
+                
+
             }
             else
             {
                sw.on = NO;
+               
+                [self labelStriker:self.leadersLabel withStatus:YES];
             }
         }
         

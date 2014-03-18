@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4518077018D712F00087F9CF /* abrahamlincoln.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518075718D712F00087F9CF /* abrahamlincoln.jpg */; };
+		4518077118D712F00087F9CF /* amitabhbachchan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518075818D712F00087F9CF /* amitabhbachchan.jpg */; };
+		4518077218D712F00087F9CF /* angelinajolie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518075918D712F00087F9CF /* angelinajolie.jpg */; };
+		4518077318D712F00087F9CF /* arnold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518075A18D712F00087F9CF /* arnold.jpg */; };
+		4518077418D712F00087F9CF /* christianoronaldo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518075B18D712F00087F9CF /* christianoronaldo.jpg */; };
+		4518077518D712F00087F9CF /* dhirubhaiambani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518075C18D712F00087F9CF /* dhirubhaiambani.jpg */; };
+		4518077618D712F00087F9CF /* enzoferrari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518075D18D712F00087F9CF /* enzoferrari.jpg */; };
+		4518077718D712F00087F9CF /* ingvarkampar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518075E18D712F00087F9CF /* ingvarkampar.jpg */; };
+		4518077818D712F00087F9CF /* juliaroberts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518075F18D712F00087F9CF /* juliaroberts.jpg */; };
+		4518077918D712F00087F9CF /* juliuscaesar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076018D712F00087F9CF /* juliuscaesar.jpg */; };
+		4518077A18D712F00087F9CF /* leonardodavinci.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076118D712F00087F9CF /* leonardodavinci.jpg */; };
+		4518077B18D712F00087F9CF /* liuxiang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076218D712F00087F9CF /* liuxiang.jpg */; };
+		4518077C18D712F00087F9CF /* michaeljordan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076318D712F00087F9CF /* michaeljordan.jpg */; };
+		4518077D18D712F00087F9CF /* michelangelo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076418D712F00087F9CF /* michelangelo.jpg */; };
+		4518077E18D712F00087F9CF /* mikhailgorbachevjpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076518D712F00087F9CF /* mikhailgorbachevjpg.jpg */; };
+		4518077F18D712F00087F9CF /* pablopicasso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076618D712F00087F9CF /* pablopicasso.jpg */; };
+		4518078018D712F00087F9CF /* rabindranathtagore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076718D712F00087F9CF /* rabindranathtagore.jpg */; };
+		4518078118D712F00087F9CF /* richardbranson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076818D712F00087F9CF /* richardbranson.jpg */; };
+		4518078218D712F00087F9CF /* sachintendulkar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076918D712F00087F9CF /* sachintendulkar.jpg */; };
+		4518078318D712F00087F9CF /* tenzingyatso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076A18D712F00087F9CF /* tenzingyatso.jpg */; };
+		4518078418D712F00087F9CF /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 4518076B18D712F00087F9CF /* Thumbs.db */; };
+		4518078518D712F00087F9CF /* tigerwoods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076C18D712F00087F9CF /* tigerwoods.jpg */; };
+		4518078618D712F00087F9CF /* traceyemin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076D18D712F00087F9CF /* traceyemin.jpg */; };
+		4518078718D712F00087F9CF /* waltdisney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076E18D712F00087F9CF /* waltdisney.jpg */; };
+		4518078818D712F00087F9CF /* willsmith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4518076F18D712F00087F9CF /* willsmith.jpg */; };
 		454E866B1899178500495F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454E866A1899178500495F94 /* Foundation.framework */; };
 		454E866D1899178500495F94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454E866C1899178500495F94 /* CoreGraphics.framework */; };
 		454E866F1899178500495F94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454E866E1899178500495F94 /* UIKit.framework */; };
 		454E86751899178500495F94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 454E86731899178500495F94 /* InfoPlist.strings */; };
 		454E86771899178500495F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E86761899178500495F94 /* main.m */; };
 		454E867B1899178500495F94 /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E867A1899178500495F94 /* SDAppDelegate.m */; };
-		454E86811899178500495F94 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454E867F1899178500495F94 /* Main_iPad.storyboard */; };
 		454E86841899178500495F94 /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E86831899178500495F94 /* SDViewController.m */; };
 		454E86861899178500495F94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454E86851899178500495F94 /* Images.xcassets */; };
 		454E868D1899178500495F94 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454E868C1899178500495F94 /* XCTest.framework */; };
@@ -50,6 +74,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4518075718D712F00087F9CF /* abrahamlincoln.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abrahamlincoln.jpg; sourceTree = "<group>"; };
+		4518075818D712F00087F9CF /* amitabhbachchan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amitabhbachchan.jpg; sourceTree = "<group>"; };
+		4518075918D712F00087F9CF /* angelinajolie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angelinajolie.jpg; sourceTree = "<group>"; };
+		4518075A18D712F00087F9CF /* arnold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arnold.jpg; sourceTree = "<group>"; };
+		4518075B18D712F00087F9CF /* christianoronaldo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = christianoronaldo.jpg; sourceTree = "<group>"; };
+		4518075C18D712F00087F9CF /* dhirubhaiambani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dhirubhaiambani.jpg; sourceTree = "<group>"; };
+		4518075D18D712F00087F9CF /* enzoferrari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enzoferrari.jpg; sourceTree = "<group>"; };
+		4518075E18D712F00087F9CF /* ingvarkampar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ingvarkampar.jpg; sourceTree = "<group>"; };
+		4518075F18D712F00087F9CF /* juliaroberts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = juliaroberts.jpg; sourceTree = "<group>"; };
+		4518076018D712F00087F9CF /* juliuscaesar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = juliuscaesar.jpg; sourceTree = "<group>"; };
+		4518076118D712F00087F9CF /* leonardodavinci.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leonardodavinci.jpg; sourceTree = "<group>"; };
+		4518076218D712F00087F9CF /* liuxiang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liuxiang.jpg; sourceTree = "<group>"; };
+		4518076318D712F00087F9CF /* michaeljordan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = michaeljordan.jpg; sourceTree = "<group>"; };
+		4518076418D712F00087F9CF /* michelangelo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = michelangelo.jpg; sourceTree = "<group>"; };
+		4518076518D712F00087F9CF /* mikhailgorbachevjpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mikhailgorbachevjpg.jpg; sourceTree = "<group>"; };
+		4518076618D712F00087F9CF /* pablopicasso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pablopicasso.jpg; sourceTree = "<group>"; };
+		4518076718D712F00087F9CF /* rabindranathtagore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rabindranathtagore.jpg; sourceTree = "<group>"; };
+		4518076818D712F00087F9CF /* richardbranson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = richardbranson.jpg; sourceTree = "<group>"; };
+		4518076918D712F00087F9CF /* sachintendulkar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sachintendulkar.jpg; sourceTree = "<group>"; };
+		4518076A18D712F00087F9CF /* tenzingyatso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tenzingyatso.jpg; sourceTree = "<group>"; };
+		4518076B18D712F00087F9CF /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		4518076C18D712F00087F9CF /* tigerwoods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tigerwoods.jpg; sourceTree = "<group>"; };
+		4518076D18D712F00087F9CF /* traceyemin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = traceyemin.jpg; sourceTree = "<group>"; };
+		4518076E18D712F00087F9CF /* waltdisney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waltdisney.jpg; sourceTree = "<group>"; };
+		4518076F18D712F00087F9CF /* willsmith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = willsmith.jpg; sourceTree = "<group>"; };
 		454E86671899178500495F94 /* InterestingPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterestingPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454E866A1899178500495F94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		454E866C1899178500495F94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +109,6 @@
 		454E86781899178500495F94 /* InterestingPeople-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InterestingPeople-Prefix.pch"; sourceTree = "<group>"; };
 		454E86791899178500495F94 /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAppDelegate.h; sourceTree = "<group>"; };
 		454E867A1899178500495F94 /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDelegate.m; sourceTree = "<group>"; };
-		454E86801899178500495F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		454E86821899178500495F94 /* SDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
 		454E86831899178500495F94 /* SDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDViewController.m; sourceTree = "<group>"; };
 		454E86851899178500495F94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -123,6 +171,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4518075618D712F00087F9CF /* interestingpeopleimages */ = {
+			isa = PBXGroup;
+			children = (
+				4518075718D712F00087F9CF /* abrahamlincoln.jpg */,
+				4518075818D712F00087F9CF /* amitabhbachchan.jpg */,
+				4518075918D712F00087F9CF /* angelinajolie.jpg */,
+				4518075A18D712F00087F9CF /* arnold.jpg */,
+				4518075B18D712F00087F9CF /* christianoronaldo.jpg */,
+				4518075C18D712F00087F9CF /* dhirubhaiambani.jpg */,
+				4518075D18D712F00087F9CF /* enzoferrari.jpg */,
+				4518075E18D712F00087F9CF /* ingvarkampar.jpg */,
+				4518075F18D712F00087F9CF /* juliaroberts.jpg */,
+				4518076018D712F00087F9CF /* juliuscaesar.jpg */,
+				4518076118D712F00087F9CF /* leonardodavinci.jpg */,
+				4518076218D712F00087F9CF /* liuxiang.jpg */,
+				4518076318D712F00087F9CF /* michaeljordan.jpg */,
+				4518076418D712F00087F9CF /* michelangelo.jpg */,
+				4518076518D712F00087F9CF /* mikhailgorbachevjpg.jpg */,
+				4518076618D712F00087F9CF /* pablopicasso.jpg */,
+				4518076718D712F00087F9CF /* rabindranathtagore.jpg */,
+				4518076818D712F00087F9CF /* richardbranson.jpg */,
+				4518076918D712F00087F9CF /* sachintendulkar.jpg */,
+				4518076A18D712F00087F9CF /* tenzingyatso.jpg */,
+				4518076B18D712F00087F9CF /* Thumbs.db */,
+				4518076C18D712F00087F9CF /* tigerwoods.jpg */,
+				4518076D18D712F00087F9CF /* traceyemin.jpg */,
+				4518076E18D712F00087F9CF /* waltdisney.jpg */,
+				4518076F18D712F00087F9CF /* willsmith.jpg */,
+			);
+			path = interestingpeopleimages;
+			sourceTree = "<group>";
+		};
 		454E865E1899178500495F94 = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +242,6 @@
 				454E86791899178500495F94 /* SDAppDelegate.h */,
 				454E867A1899178500495F94 /* SDAppDelegate.m */,
 				454E86A21899179700495F94 /* Main.storyboard */,
-				454E867F1899178500495F94 /* Main_iPad.storyboard */,
 				45E8C39518A8F86500E2B29A /* SDMoreAppsCell.h */,
 				45E8C39618A8F86500E2B29A /* SDMoreAppsCell.m */,
 				45E8C39818A8F90200E2B29A /* SDMoreAppsViewController.h */,
@@ -189,6 +268,7 @@
 		454E86711899178500495F94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4518075618D712F00087F9CF /* interestingpeopleimages */,
 				45D2A6EA18B0FFD9007ABA6D /* ketchum */,
 				457B50DF18A265D60071E8D1 /* gandhi.png */,
 				454E86AD189918EC00495F94 /* settingsImage.jpg */,
@@ -314,15 +394,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4518077618D712F00087F9CF /* enzoferrari.jpg in Resources */,
+				4518078718D712F00087F9CF /* waltdisney.jpg in Resources */,
+				4518077818D712F00087F9CF /* juliaroberts.jpg in Resources */,
+				4518078818D712F00087F9CF /* willsmith.jpg in Resources */,
+				4518078318D712F00087F9CF /* tenzingyatso.jpg in Resources */,
+				4518077C18D712F00087F9CF /* michaeljordan.jpg in Resources */,
 				45D2A6EE18B0FFD9007ABA6D /* Font License.txt.txt in Resources */,
+				4518078618D712F00087F9CF /* traceyemin.jpg in Resources */,
+				4518077E18D712F00087F9CF /* mikhailgorbachevjpg.jpg in Resources */,
+				4518077718D712F00087F9CF /* ingvarkampar.jpg in Resources */,
+				4518077218D712F00087F9CF /* angelinajolie.jpg in Resources */,
+				4518077F18D712F00087F9CF /* pablopicasso.jpg in Resources */,
+				4518077518D712F00087F9CF /* dhirubhaiambani.jpg in Resources */,
 				457B50E018A265D60071E8D1 /* gandhi.png in Resources */,
+				4518077118D712F00087F9CF /* amitabhbachchan.jpg in Resources */,
+				4518078518D712F00087F9CF /* tigerwoods.jpg in Resources */,
+				4518077D18D712F00087F9CF /* michelangelo.jpg in Resources */,
+				4518078018D712F00087F9CF /* rabindranathtagore.jpg in Resources */,
 				454E86AE189918EC00495F94 /* settingsImage.jpg in Resources */,
+				4518077318D712F00087F9CF /* arnold.jpg in Resources */,
+				4518078118D712F00087F9CF /* richardbranson.jpg in Resources */,
+				4518077418D712F00087F9CF /* christianoronaldo.jpg in Resources */,
 				45D2A6F018B0FFD9007ABA6D /* Ketchum.ttf in Resources */,
-				454E86811899178500495F94 /* Main_iPad.storyboard in Resources */,
+				4518077B18D712F00087F9CF /* liuxiang.jpg in Resources */,
+				4518078218D712F00087F9CF /* sachintendulkar.jpg in Resources */,
+				4518077A18D712F00087F9CF /* leonardodavinci.jpg in Resources */,
+				4518077018D712F00087F9CF /* abrahamlincoln.jpg in Resources */,
 				45D2A6EF18B0FFD9007ABA6D /* Ketchum Hollow.ttf in Resources */,
 				454E86861899178500495F94 /* Images.xcassets in Resources */,
 				454E86751899178500495F94 /* InfoPlist.strings in Resources */,
+				4518077918D712F00087F9CF /* juliuscaesar.jpg in Resources */,
 				454E86A31899179700495F94 /* Main.storyboard in Resources */,
+				4518078418D712F00087F9CF /* Thumbs.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,14 +483,6 @@
 				454E86741899178500495F94 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		454E867F1899178500495F94 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				454E86801899178500495F94 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		454E86951899178500495F94 /* InfoPlist.strings */ = {
