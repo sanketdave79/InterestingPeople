@@ -185,7 +185,8 @@
         
     }
     
-    else if (sender.tag == 2){
+    else if (sender.tag == 2)
+    {
         
         if (sender.isOn) {
             [categoryStatus replaceObjectAtIndex:1 withObject:@"active"];
@@ -207,6 +208,79 @@
         
         
     }
+    
+    else if (sender.tag == 3)
+    {
+        
+        if (sender.isOn) {
+            [categoryStatus replaceObjectAtIndex:1 withObject:@"active"];
+            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"sportsman"];
+            NSLog(@"Sportsman s Category ON , Category status array after on : %@",categoryStatus);
+            [self labelStriker:self.sportsmanLabel withStatus:NO];
+        }
+        
+        if (!sender.isOn)
+        {
+            [categoryStatus replaceObjectAtIndex:1 withObject:@"inactive"];
+            [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"sportsman"];
+            [self labelStriker:self.sportsmanLabel withStatus:YES];
+            
+            NSLog(@"Sportsman s Category OFF , Category status array after on : %@",categoryStatus);
+            
+            
+        }
+        
+        
+    }
+    else if (sender.tag == 4)
+    {
+        
+        if (sender.isOn) {
+            [categoryStatus replaceObjectAtIndex:1 withObject:@"active"];
+            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"artists"];
+            NSLog(@"Artist s Category ON , Category status array after on : %@",categoryStatus);
+            [self labelStriker:self.artistsLabel withStatus:NO];
+        }
+        
+        if (!sender.isOn)
+        {
+            [categoryStatus replaceObjectAtIndex:1 withObject:@"inactive"];
+            [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"artists"];
+            [self labelStriker:self.artistsLabel withStatus:YES];
+            
+            NSLog(@"Artist s Category OFF , Category status array after on : %@",categoryStatus);
+            
+            
+        }
+        
+        
+    }
+    else if (sender.tag == 5)
+    {
+        
+        if (sender.isOn) {
+            [categoryStatus replaceObjectAtIndex:1 withObject:@"active"];
+            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"businessman"];
+            NSLog(@"Businessman s Category ON , Category status array after on : %@",categoryStatus);
+            [self labelStriker:self.businessmanLabel withStatus:NO];
+        }
+        
+        if (!sender.isOn)
+        {
+            [categoryStatus replaceObjectAtIndex:1 withObject:@"inactive"];
+            [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"businessman"];
+            [self labelStriker:self.businessmanLabel withStatus:YES];
+            
+            NSLog(@"Businessman s Category OFF , Category status array after on : %@",categoryStatus);
+            
+            
+        }
+        
+        
+    }
+
+
+
     
     [[NSUserDefaults standardUserDefaults] synchronize];
 
@@ -252,13 +326,12 @@
             }
         }
         
-        if (sw.tag == 2) {
+        if (sw.tag == 2)
+        {
             if ([[NSUserDefaults standardUserDefaults] boolForKey:@"actors"]==YES)
                 
-            { sw.on = YES;
-                
-//                [self labelStrikeRemover];
-
+            {
+                sw.on = YES;
                 [self labelStriker:self.actorsLabel withStatus:NO];
 
             
@@ -266,13 +339,78 @@
             
             else
                 
-            { sw.on = NO;
-//                [self labelStriker];
+            {
+                sw.on = NO;
                 [self labelStriker:self.actorsLabel withStatus:YES];
 
             }
             
         }
+        if (sw.tag == 3)
+        {
+            if ([[NSUserDefaults standardUserDefaults] boolForKey:@"sportsman"]==YES)
+                
+            {
+                sw.on = YES;
+                [self labelStriker:self.sportsmanLabel withStatus:NO];
+                
+                
+            }
+            
+            else
+                
+            {
+                sw.on = NO;
+                [self labelStriker:self.sportsmanLabel withStatus:YES];
+                
+            }
+            
+        }
+        
+        if (sw.tag == 4)
+        {
+            if ([[NSUserDefaults standardUserDefaults] boolForKey:@"artists"]==YES)
+                
+            {
+                sw.on = YES;
+                [self labelStriker:self.artistsLabel withStatus:NO];
+                
+                
+            }
+            
+            else
+                
+            {
+                sw.on = NO;
+                [self labelStriker:self.artistsLabel withStatus:YES];
+                
+            }
+            
+        }
+        if (sw.tag == 5)
+        {
+            if ([[NSUserDefaults standardUserDefaults] boolForKey:@"businessman"]==YES)
+                
+            {
+                sw.on = YES;
+                [self labelStriker:self.businessmanLabel withStatus:NO];
+                
+                
+            }
+            
+            else
+                
+            {
+                sw.on = NO;
+                [self labelStriker:self.businessmanLabel withStatus:YES];
+                
+            }
+            
+        }
+
+        
+
+
         
     }
     

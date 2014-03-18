@@ -12,6 +12,9 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *leadersLabel;
 @property (weak, nonatomic) IBOutlet UILabel *actorsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *sportsmanLabel;
+@property (weak, nonatomic) IBOutlet UILabel *artistsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *businessmanLabel;
 
 
 -(IBAction)setCategoryStatus:(id)sender;

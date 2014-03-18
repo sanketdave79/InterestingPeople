@@ -92,13 +92,10 @@
                                     <segue destination="Eqd-kL-bLi" kind="push" id="oJZ-w6-xZy"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vb5-d7-Ocl">
-                                <rect key="frame" x="35" y="44" width="265" height="177"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="interestingpeople.png" id="f4j-s3-H0E">
+                                <rect key="frame" x="20" y="28" width="294" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.2117647231" green="0.66666668650000005" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -264,48 +261,74 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <switch opaque="NO" tag="1000" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="JMR-ft-7yu">
-                                <rect key="frame" x="207" y="92" width="51" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2117647231" green="0.66666668650000005" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
-                                <connections>
-                                    <action selector="categoryStatusChanger:" destination="HIq-4J-caR" eventType="valueChanged" id="8Vu-p8-RKq"/>
-                                    <action selector="setCategoryStatus:" destination="HIq-4J-caR" eventType="valueChanged" id="03f-uC-vaZ"/>
-                                </connections>
-                            </switch>
-                            <switch opaque="NO" tag="1001" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="98e-3Z-bo8">
-                                <rect key="frame" x="207" y="150" width="51" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="categoryStatusChanger:" destination="HIq-4J-caR" eventType="valueChanged" id="Hhj-FJ-u8C"/>
-                                </connections>
-                            </switch>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leaders" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bRa-RG-vK8">
-                                <rect key="frame" x="46" y="243" width="141" height="22"/>
+                                <rect key="frame" x="57" y="81" width="141" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="28"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="61R-kw-F0U">
-                                <rect key="frame" x="67" y="289" width="98" height="36"/>
+                                <rect key="frame" x="87" y="124" width="98" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sportsman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8tm-xe-Urc">
+                                <rect key="frame" x="36" y="175" width="162" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artists" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dfB-nk-Shg">
+                                <rect key="frame" x="96" y="228" width="102" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Businessman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nvL-c0-zhl">
+                                <rect key="frame" x="17" y="278" width="200" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="28"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="9oW-aE-4QH">
-                                <rect key="frame" x="220" y="243" width="51" height="31"/>
+                                <rect key="frame" x="233" y="81" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="categoryStatusChanger:" destination="HIq-4J-caR" eventType="valueChanged" id="9Hc-BS-a7L"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="jxL-X4-KHf">
-                                <rect key="frame" x="220" y="294" width="51" height="31"/>
+                                <rect key="frame" x="233" y="129" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="categoryStatusChanger:" destination="HIq-4J-caR" eventType="valueChanged" id="bDv-1N-FUb"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="2b5-rW-Tx9">
+                                <rect key="frame" x="233" y="180" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="categoryStatusChanger:" destination="HIq-4J-caR" eventType="valueChanged" id="qu9-Qj-lkp"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="gbO-bV-ROR">
+                                <rect key="frame" x="233" y="233" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="categoryStatusChanger:" destination="HIq-4J-caR" eventType="valueChanged" id="Ho7-67-VI1"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="Mmu-7g-frD">
+                                <rect key="frame" x="233" y="283" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="categoryStatusChanger:" destination="HIq-4J-caR" eventType="valueChanged" id="956-dd-oLn"/>
                                 </connections>
                             </switch>
                         </subviews>
@@ -314,13 +337,15 @@
                     <navigationItem key="navigationItem" id="19t-LH-RoQ"/>
                     <connections>
                         <outlet property="actorsLabel" destination="61R-kw-F0U" id="S9H-xs-oSZ"/>
+                        <outlet property="artistsLabel" destination="dfB-nk-Shg" id="wbj-Pa-5Fg"/>
+                        <outlet property="businessmanLabel" destination="nvL-c0-zhl" id="cVx-Px-qf1"/>
                         <outlet property="leadersLabel" destination="bRa-RG-vK8" id="mN8-za-Sig"/>
-                        <outlet property="theswitch" destination="JMR-ft-7yu" id="KM4-5h-Be8"/>
+                        <outlet property="sportsmanLabel" destination="8tm-xe-Urc" id="FzA-cE-3Yt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pmM-sS-JMP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="211" y="-1244"/>
+            <point key="canvasLocation" x="211" y="-1224"/>
         </scene>
         <!--View By Click View Controller-->
         <scene sceneID="nfa-hx-fnG">
@@ -519,6 +544,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="interestingpeople.png" width="588" height="204"/>
         <image name="settingsImage.jpg" width="50" height="48"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

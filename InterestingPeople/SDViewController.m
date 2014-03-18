@@ -29,22 +29,22 @@
 - (void)viewDidLoad
 {
 
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 60)];
-    label.textAlignment = NSTextAlignmentCenter;
-    label.text = @"Interesting People Lite";
-    label.font = [UIFont fontWithName:@"Ketchum" size:20];
-    [self.view addSubview:label];
-    [UIView animateWithDuration:4.0
-                          delay:0.0
-                        options: UIViewAnimationOptionCurveEaseInOut
-                     animations:^{
-                         self.testLabel.alpha = 1.0;
-                     }
-                     completion:^(BOOL finished){
-                         
-                         self.testLabel.frame = CGRectMake(200, 200, 200, 200);
-                         
-                     }];
+//    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 60)];
+//    label.textAlignment = NSTextAlignmentCenter;
+//    label.text = @"Interesting People Lite";
+//    label.font = [UIFont fontWithName:@"Ketchum" size:20];
+//    [self.view addSubview:label];
+//    [UIView animateWithDuration:4.0
+//                          delay:0.0
+//                        options: UIViewAnimationOptionCurveEaseInOut
+//                     animations:^{
+//                         self.testLabel.alpha = 1.0;
+//                     }
+//                     completion:^(BOOL finished){
+//                         
+//                         self.testLabel.frame = CGRectMake(200, 200, 200, 200);
+//                         
+//                     }];
 
     
     
@@ -88,11 +88,11 @@
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     
-    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"leaders"]) {
-        NSLog(@"category true");
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"businessman"]) {
+        NSLog(@"b category true");
     }
     else {
-        NSLog(@"category false");
+        NSLog(@"b category false");
     }
 }
 
