@@ -28,6 +28,13 @@
 
 - (void)viewDidLoad
 {
+    self.byclick.layer.cornerRadius = 8.0f;
+    self.byshake.layer.cornerRadius = 8.0f;
+    self.byswipe.layer.cornerRadius = 8.0f;
+    self.moreappButton.layer.cornerRadius = 8.0f;
+    self.infoButton.layer.cornerRadius = 8.0f;
+    self.settingsButton.layer.cornerRadius = 8.0f;
+    
 
 //    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 60)];
 //    label.textAlignment = NSTextAlignmentCenter;
@@ -48,14 +55,16 @@
 
     
     
-    if (self.view.frame.size.height == 568) {
-        // put buttons down 60 pixels
-     
-        NSLog(@"OKOK");
-        self.infoButton.frame = CGRectMake(10, 10, 10,10);
-    }
+//    if (self.view.frame.size.height == 568) {
+//        // put buttons down 60 pixels
+//     
+//        NSLog(@"OKOK");
+//        self.infoButton.frame = CGRectMake(10, 10, 10,10);
+//    }
     
     [super viewDidLoad];
+    
+    
        
     if ([categoryStatus count] == 0) {
         
@@ -272,11 +281,21 @@
 {
      NSArray *tempArr =[self returningRandomlyChosenProfile];
     NSLog(@"temp arr : %@", tempArr);
-    
     self.imageView.image = [UIImage imageNamed:tempArr[1]];
     
+    NSString *name = tempArr[0];
+    
+    self.nameLabel.text = [NSString stringWithFormat: @"Name : %@", name];
+    
+      NSString *country = tempArr[3];
+    
     self.countryLabel.text = tempArr[3];
+    
+     self.countryLabel.text = [NSString stringWithFormat: @"Country : %@", country];
+    
     self.descriptionTextView.text = tempArr[2];
+    
+    
     
     
     

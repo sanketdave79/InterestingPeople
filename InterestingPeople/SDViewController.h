@@ -26,6 +26,10 @@
 @property (weak, nonatomic) IBOutlet UIButton *infoButton;
 
 @property (weak, nonatomic) IBOutlet UIButton *moreappButton;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UIButton *byswipe;
+@property (weak, nonatomic) IBOutlet UIButton *byclick;
+@property (weak, nonatomic) IBOutlet UIButton *byshake;
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UILabel *countryLabel;

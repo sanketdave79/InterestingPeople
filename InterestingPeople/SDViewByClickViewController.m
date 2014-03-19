@@ -30,6 +30,8 @@
 	// Do any additional setup after loading the view.
     
     self.backButton.layer.cornerRadius = 8.0f;
+    self.nextButton.layer.cornerRadius = 8.0f;
+    self.wikiClick.layer.cornerRadius = 8.0f;
     
     
 //    NSLog(@"status category : %@", categoryStatus);

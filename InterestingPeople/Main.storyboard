@@ -39,7 +39,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="BIq-13-ALP">
-                                <rect key="frame" x="44" y="399" width="54" height="49"/>
+                                <rect key="frame" x="44" y="399" width="59" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93333339691162109" green="0.9803922176361084" blue="0.9960784912109375" alpha="1" colorSpace="deviceRGB"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -54,7 +54,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RoB-lS-pxG">
-                                <rect key="frame" x="116" y="399" width="54" height="49"/>
+                                <rect key="frame" x="116" y="399" width="59" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.9383867561" green="0.9796566511" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="37"/>
@@ -67,7 +67,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w4Y-mR-GXU">
-                                <rect key="frame" x="183" y="399" width="106" height="49"/>
+                                <rect key="frame" x="183" y="399" width="106" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.9383867561" green="0.9796566511" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="15"/>
@@ -93,7 +93,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="interestingpeople.png" id="f4j-s3-H0E">
-                                <rect key="frame" x="20" y="28" width="294" height="190"/>
+                                <rect key="frame" x="13" y="28" width="307" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -103,6 +103,9 @@
                         <barButtonItem key="rightBarButtonItem" title="S" id="wPt-27-th2"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="byclick" destination="A1t-Ps-cgT" id="Ocz-ie-CMB"/>
+                        <outlet property="byshake" destination="aTh-Lx-odZ" id="HH5-v8-4eG"/>
+                        <outlet property="byswipe" destination="LuV-zj-RI1" id="u4G-yg-evm"/>
                         <outlet property="clickButton" destination="A1t-Ps-cgT" id="90M-97-qyn"/>
                         <outlet property="infoButton" destination="RoB-lS-pxG" id="rK2-UW-4wx"/>
                         <outlet property="moreappButton" destination="w4Y-mR-GXU" id="g6j-1y-j7r"/>
@@ -356,11 +359,19 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="d9z-aD-tLQ">
-                                <rect key="frame" x="31" y="63" width="263" height="245"/>
+                                <rect key="frame" x="0.0" y="63" width="320" height="200"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    Country:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GlU-9i-1ZP">
-                                <rect key="frame" x="0.0" y="268" width="320" height="45"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GlU-9i-1ZP">
+                                <rect key="frame" x="8" y="309" width="294" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2117647231" green="0.66666668650000005" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                <color key="textColor" red="0.9383867561" green="0.9796566511" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firstname Lastname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6vc-nH-acq">
+                                <rect key="frame" x="13" y="271" width="294" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2117647231" green="0.66666668650000005" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
@@ -368,7 +379,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Ut-ID-92H">
-                                <rect key="frame" x="20" y="20" width="72" height="30"/>
+                                <rect key="frame" x="20" y="25" width="72" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
@@ -381,16 +392,15 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="t88-ng-Wn0">
-                                <rect key="frame" x="20" y="321" width="280" height="128"/>
+                                <rect key="frame" x="0.0" y="367" width="320" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" red="0.2117647231" green="0.66666668650000005" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="13"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FRx-LA-mCY">
-                                <rect key="frame" x="242" y="20" width="72" height="33"/>
+                                <rect key="frame" x="243" y="23" width="72" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
@@ -402,6 +412,16 @@
                                     <action selector="changeProfile" destination="r1h-vJ-rkv" eventType="touchUpInside" id="ZEv-k4-dVj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BYo-ir-sWU">
+                                <rect key="frame" x="226" y="513" width="74" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="15"/>
+                                <state key="normal" title="Wiki">
+                                    <color key="titleColor" red="0.2117647231" green="0.66666668650000005" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.21176472306251526" green="0.66666668653488159" blue="0.30196079611778259" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -411,7 +431,9 @@
                         <outlet property="countryLabel" destination="GlU-9i-1ZP" id="Znr-63-Ouo"/>
                         <outlet property="descriptionTextView" destination="t88-ng-Wn0" id="KDE-9m-ECq"/>
                         <outlet property="imageView" destination="d9z-aD-tLQ" id="40I-dV-Ns2"/>
+                        <outlet property="nameLabel" destination="6vc-nH-acq" id="HaQ-pR-tHe"/>
                         <outlet property="nextButton" destination="FRx-LA-mCY" id="H89-TS-ngO"/>
+                        <outlet property="wikiClick" destination="BYo-ir-sWU" id="adK-ts-zIW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jyp-yX-9PC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -456,15 +478,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" red="0.2117647231" green="0.66666668650000005" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="13"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="t2N-SA-h9l">
-                                <rect key="frame" x="254" y="446" width="46" height="30"/>
+                                <rect key="frame" x="210" y="477" width="73" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="15"/>
                                 <state key="normal" title="Wiki">
-                                    <color key="titleColor" red="0.93333339689999995" green="0.98039221759999995" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleColor" red="0.2117647231" green="0.66666668650000005" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -480,6 +503,7 @@
                         <outlet property="countryLabel" destination="AYH-fC-ThO" id="Zh6-KQ-gWj"/>
                         <outlet property="descriptionTextView" destination="T5Y-oK-Aso" id="nMm-bt-nfc"/>
                         <outlet property="imageView" destination="sEA-ed-2t6" id="Bfy-mU-BRE"/>
+                        <outlet property="wikiShake" destination="t2N-SA-h9l" id="JA2-m0-uie"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GnD-ia-gB2" userLabel="First Responder" sceneMemberID="firstResponder"/>

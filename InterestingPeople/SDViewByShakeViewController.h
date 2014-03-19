@@ -12,6 +12,8 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *backButtonForShakeView;
 
+@property (weak, nonatomic) IBOutlet UIButton *wikiShake;
+
 -(IBAction)goBack:(id)sender;
 
 @end

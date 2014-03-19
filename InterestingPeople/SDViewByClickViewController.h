@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
+@property (weak, nonatomic) IBOutlet UIButton *wikiClick;
 
 
 -(IBAction)goBack:(id)sender;

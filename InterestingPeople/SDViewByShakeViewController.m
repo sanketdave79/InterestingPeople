@@ -57,6 +57,7 @@
 	// Do any additional setup after loading the view.
     
     self.backButtonForShakeView.layer.cornerRadius = 8.0f;
+    self.wikiShake.layer.cornerRadius = 8.0f;
     [self changeProfile];
     
     
