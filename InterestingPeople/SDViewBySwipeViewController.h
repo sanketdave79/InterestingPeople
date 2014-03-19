@@ -11,6 +11,7 @@
 @interface SDViewBySwipeViewController : SDViewController
 
 @property (weak, nonatomic) IBOutlet UIButton *swipebackButton;
+@property (weak, nonatomic) IBOutlet UIButton *swipeWiki;
 
 -(IBAction)goback:(id)sender;
 - (void)swiped: (UIEventSubtype)swipe withEvent:(UIEvent *)event;

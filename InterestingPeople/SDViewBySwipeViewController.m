@@ -55,6 +55,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     self.swipebackButton.layer.cornerRadius = 8.0f;
+    self.swipeWiki.layer.cornerRadius = 8.0f;
     
     
     UISwipeGestureRecognizer * swiperight=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(changeProfile)];
