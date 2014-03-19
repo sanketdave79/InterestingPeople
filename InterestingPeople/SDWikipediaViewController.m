@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.backButtonForWikipediaview.layer.cornerRadius = 8.0f;
 }
 
 -(IBAction)goBack:(id)sender {
