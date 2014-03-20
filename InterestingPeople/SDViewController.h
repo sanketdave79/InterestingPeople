@@ -16,7 +16,8 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *clickButton;
 
- 
+@property (copy,nonatomic) NSString *someValue;
+
 
 
 @property (weak, nonatomic) IBOutlet UIButton *shakeButton;

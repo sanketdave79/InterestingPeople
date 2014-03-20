@@ -8,11 +8,17 @@
 
 #import "SDWikipediaViewController.h"
 
+
 @interface SDWikipediaViewController ()
+
 
 @end
 
+
 @implementation SDWikipediaViewController
+
+
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,6 +34,20 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     self.backButtonForWikipediaview.layer.cornerRadius = 8.0f;
+    
+    SDViewController *cls_b = [[SDViewController alloc] initWithNibName:@"SDViewController_nib" bundle:nil];
+    
+    
+    NSString *nameforurl = cls_b.someValue;
+    NSLog(@"%@",nameforurl);
+    
+    NSString *fullURL = [NSString stringWithFormat: @"http://www.wikipedia.org/w/wiki.phtml?search=%@", nameforurl];
+    
+    NSURL *url = [NSURL URLWithString:fullURL];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [_shakewikiview loadRequest:requestObj];
+    
+
 }
 
 -(IBAction)goBack:(id)sender {

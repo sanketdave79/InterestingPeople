@@ -11,6 +11,7 @@
 @interface SDWikipediaViewController : SDViewController
 
 @property (weak, nonatomic) IBOutlet UIButton *backButtonForWikipediaview;
+@property (strong, nonatomic) IBOutlet UIWebView *shakewikiview;
 
 -(IBAction)goBack:(id)sender; 
 

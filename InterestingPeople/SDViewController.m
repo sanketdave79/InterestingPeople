@@ -26,14 +26,20 @@
 
 @implementation SDViewController
 
+
+
 - (void)viewDidLoad
 {
+   
+    //[self hidenavigationbar];
     self.byclick.layer.cornerRadius = 8.0f;
     self.byshake.layer.cornerRadius = 8.0f;
     self.byswipe.layer.cornerRadius = 8.0f;
     self.moreappButton.layer.cornerRadius = 8.0f;
     self.infoButton.layer.cornerRadius = 8.0f;
     self.settingsButton.layer.cornerRadius = 8.0f;
+    
+   
     
 
 //    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 60)];
@@ -80,6 +86,11 @@
         [self initializer];
         [self returningRandomlyChosenCategory];
         [self returningRandomlyChosenProfile];
+        _someValue = @"this is it !!";
+        
+        
+    
+       
         
         
         
@@ -94,6 +105,11 @@
     
 }
 
+-(void)hidenavigationbar{
+     self.navigationController.navigationBarHidden = YES;
+    
+}
+
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     
@@ -103,6 +119,19 @@
     else {
         NSLog(@"b category false");
     }
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+    [super viewWillAppear:animated];
+}
+
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
+    [super viewWillDisappear:animated];
 }
 
 - (void) initializer {
@@ -285,6 +314,8 @@
     
     NSString *name = tempArr[0];
     
+    _someValue = tempArr[0];
+    
     self.nameLabel.text = [NSString stringWithFormat: @"Name : %@", name];
     
       NSString *country = tempArr[3];
@@ -295,6 +326,7 @@
     
     self.descriptionTextView.text = tempArr[2];
     
+        
     
     
     
