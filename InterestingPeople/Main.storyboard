@@ -379,7 +379,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="d9z-aD-tLQ">
                                 <rect key="frame" x="0.0" y="63" width="320" height="200"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GlU-9i-1ZP">
                                 <rect key="frame" x="8" y="309" width="294" height="50"/>
@@ -410,7 +410,7 @@
                                     <action selector="goBack:" destination="r1h-vJ-rkv" eventType="touchUpInside" id="xCZ-gK-rGs"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="t88-ng-Wn0">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" id="t88-ng-Wn0">
                                 <rect key="frame" x="0.0" y="367" width="320" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -438,6 +438,14 @@
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="15"/>
                                 <state key="normal" title="Wiki">
                                     <color key="titleColor" red="0.2117647231" green="0.66666668650000005" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="OER-tF-JJe">
+                                <rect key="frame" x="273" y="285" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -518,7 +526,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SZB-Pt-zlw" kind="push" id="vI2-BI-UMk"/>
+                                    <segue destination="nEi-vn-sgy" kind="push" id="7ZK-Py-Hsf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -539,20 +547,20 @@
             <point key="canvasLocation" x="245" y="-209"/>
         </scene>
         <!--Wikipedia View Controller-->
-        <scene sceneID="W9q-Mp-gCR">
+        <scene sceneID="nIT-n9-vX6">
             <objects>
-                <viewController id="SZB-Pt-zlw" customClass="SDWikipediaViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9VA-by-XEA">
+                <viewController id="nEi-vn-sgy" customClass="SDWikipediaViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bu4-JA-YoU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" id="bRW-lg-B0O">
-                                <rect key="frame" x="0.0" y="52" width="320" height="516"/>
+                            <webView contentMode="scaleToFill" id="JS4-do-Y9c">
+                                <rect key="frame" x="0.0" y="53" width="320" height="462"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iQQ-82-z3t">
-                                <rect key="frame" x="14" y="12" width="72" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sFa-0U-P8D">
+                                <rect key="frame" x="28" y="13" width="72" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
@@ -561,21 +569,22 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="goBack:" destination="SZB-Pt-zlw" eventType="touchUpInside" id="ym2-fU-sCL"/>
+                                    <action selector="goBack:" destination="B4J-A7-vTN" eventType="touchUpInside" id="WWo-qO-E1g"/>
+                                    <action selector="goBack:" destination="nEi-vn-sgy" eventType="touchUpInside" id="Yay-si-0pC"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2117647231" green="0.66666668650000005" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="MD6-K3-BlY"/>
+                    <navigationItem key="navigationItem" id="Dcd-0j-c2e"/>
                     <connections>
-                        <outlet property="backButtonForWikipediaview" destination="iQQ-82-z3t" id="Sve-xi-usQ"/>
-                        <outlet property="shakewikiview" destination="bRW-lg-B0O" id="u6i-oS-UXg"/>
+                        <outlet property="backButtonForWikipediaview" destination="sFa-0U-P8D" id="s6V-cv-0tq"/>
+                        <outlet property="shakewikiview" destination="JS4-do-Y9c" id="tSV-rQ-j49"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PI7-vO-g4c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lcc-4p-tvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="522" y="384"/>
+            <point key="canvasLocation" x="676" y="109"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4Ey-L5-ljX">

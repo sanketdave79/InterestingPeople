@@ -17,35 +17,31 @@
 
 @implementation SDWikipediaViewController
 
+-(void)viewDidAppear:(BOOL)animated {
+    NSLog(@"some value is gay!!  :%@", self.someValue);
 
-
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
 }
-
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+//    [super viewDidLoad];
 	// Do any additional setup after loading the view.
     self.backButtonForWikipediaview.layer.cornerRadius = 8.0f;
     
-    SDViewController *cls_b = [[SDViewController alloc] initWithNibName:@"SDViewController_nib" bundle:nil];
+    NSLog(@"some value is gay!!  :%@", self.someValue);
+
+ //   int b = [view2 variableView2];
+    
+    NSString *nameforurl = self.namestring;
+    
+    NSLog(@"got the name !!! Bookkaaa :%@",nameforurl);
     
     
-    NSString *nameforurl = cls_b.someValue;
-    NSLog(@"%@",nameforurl);
+    // urls shouldnt contain any spaces.. replace it with %20
+    NSString *fullURL = [[NSString stringWithFormat: @"http://en.wikipedia.org/wiki/%@", self.nameForURL] stringByReplacingOccurrencesOfString:@" " withString:@"_"];
     
-    NSString *fullURL = [NSString stringWithFormat: @"http://www.wikipedia.org/w/wiki.phtml?search=%@", nameforurl];
-    
-    NSURL *url = [NSURL URLWithString:fullURL];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [_shakewikiview loadRequest:requestObj];
+   NSURL *url = [NSURL URLWithString:fullURL];
+  NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+  [_shakewikiview loadRequest:requestObj];
     
 
 }

@@ -64,6 +64,8 @@
     [self.view addGestureRecognizer:swiperight];
     
      [self changeProfile];
+    
+
 }
 
 - (void)didReceiveMemoryWarning

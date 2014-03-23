@@ -8,6 +8,7 @@
 
 #import "SDViewByShakeViewController.h"
 #import "SDViewController.h"
+#import "SDWikipediaViewController.h"
 
 @interface SDViewByShakeViewController (){
     NSTimer *timer;
@@ -17,16 +18,6 @@
 
 @implementation SDViewByShakeViewController
 
-
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 -(IBAction)goBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
@@ -54,14 +45,26 @@
 {
     [super viewDidLoad];
 
+    NSLog(@"some value here aaa  : %@", self.someValue);
+
 	// Do any additional setup after loading the view.
     
     self.backButtonForShakeView.layer.cornerRadius = 8.0f;
     self.wikiShake.layer.cornerRadius = 8.0f;
     [self changeProfile];
     
+    NSLog(@"some value here : %@", self.someValue);
+
     
-    
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    NSLog(@"aa  name :%@", self.someValue);
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    SDWikipediaViewController *wiki = [segue destinationViewController];
+    wiki.nameForURL = self.someValue;
 }
 
 - (void)didReceiveMemoryWarning

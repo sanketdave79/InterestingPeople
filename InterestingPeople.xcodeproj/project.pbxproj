@@ -59,9 +59,10 @@
 		45DCA05318A4A65700A9D157 /* SDViewBySwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DCA05218A4A65700A9D157 /* SDViewBySwipeViewController.m */; };
 		45E8C39718A8F86500E2B29A /* SDMoreAppsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E8C39618A8F86500E2B29A /* SDMoreAppsCell.m */; };
 		45E8C39A18A8F90200E2B29A /* SDMoreAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E8C39918A8F90200E2B29A /* SDMoreAppsViewController.m */; };
-		45E8C39E18A906B700E2B29A /* libFlurry_4.3.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E8C39D18A906B700E2B29A /* libFlurry_4.3.2.a */; };
 		45E8C3A018A9075600E2B29A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E8C39F18A9075600E2B29A /* CFNetwork.framework */; };
 		45E8C3A218A907C700E2B29A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E8C3A118A907C700E2B29A /* SystemConfiguration.framework */; };
+		5604045318DC374E0072A38F /* libFlurry_4.3.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5604045218DC374E0072A38F /* libFlurry_4.3.2.a */; };
+		5604045618DC45C80072A38F /* SDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5604045518DC45C80072A38F /* SDTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,10 +141,12 @@
 		45E8C39618A8F86500E2B29A /* SDMoreAppsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMoreAppsCell.m; sourceTree = "<group>"; };
 		45E8C39818A8F90200E2B29A /* SDMoreAppsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMoreAppsViewController.h; sourceTree = "<group>"; };
 		45E8C39918A8F90200E2B29A /* SDMoreAppsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMoreAppsViewController.m; sourceTree = "<group>"; };
-		45E8C39C18A906B700E2B29A /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		45E8C39D18A906B700E2B29A /* libFlurry_4.3.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.3.2.a; sourceTree = "<group>"; };
 		45E8C39F18A9075600E2B29A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		45E8C3A118A907C700E2B29A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5604045118DC374E0072A38F /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		5604045218DC374E0072A38F /* libFlurry_4.3.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.3.2.a; sourceTree = "<group>"; };
+		5604045418DC45C80072A38F /* SDTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTestViewController.h; sourceTree = "<group>"; };
+		5604045518DC45C80072A38F /* SDTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +159,7 @@
 				454E866D1899178500495F94 /* CoreGraphics.framework in Frameworks */,
 				454E866F1899178500495F94 /* UIKit.framework in Frameworks */,
 				454E866B1899178500495F94 /* Foundation.framework in Frameworks */,
-				45E8C39E18A906B700E2B29A /* libFlurry_4.3.2.a in Frameworks */,
+				5604045318DC374E0072A38F /* libFlurry_4.3.2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,9 +231,9 @@
 		454E86691899178500495F94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5604045018DC374E0072A38F /* Flurry */,
 				45E8C3A118A907C700E2B29A /* SystemConfiguration.framework */,
 				45E8C39F18A9075600E2B29A /* CFNetwork.framework */,
-				45E8C39B18A906B700E2B29A /* Flurry */,
 				454E866A1899178500495F94 /* Foundation.framework */,
 				454E866C1899178500495F94 /* CoreGraphics.framework */,
 				454E866E1899178500495F94 /* UIKit.framework */,
@@ -260,6 +263,8 @@
 				454E86A7189918AF00495F94 /* SDViewByClickViewController.m */,
 				454E86A8189918AF00495F94 /* SDViewByShakeViewController.h */,
 				454E86A9189918AF00495F94 /* SDViewByShakeViewController.m */,
+				5604045418DC45C80072A38F /* SDTestViewController.h */,
+				5604045518DC45C80072A38F /* SDTestViewController.m */,
 				45B1F749189B8CFC0077F6CA /* SDWikipediaViewController.h */,
 				45B1F74A189B8CFC0077F6CA /* SDWikipediaViewController.m */,
 				454E86851899178500495F94 /* Images.xcassets */,
@@ -311,11 +316,11 @@
 			path = ketchum;
 			sourceTree = "<group>";
 		};
-		45E8C39B18A906B700E2B29A /* Flurry */ = {
+		5604045018DC374E0072A38F /* Flurry */ = {
 			isa = PBXGroup;
 			children = (
-				45E8C39C18A906B700E2B29A /* Flurry.h */,
-				45E8C39D18A906B700E2B29A /* libFlurry_4.3.2.a */,
+				5604045118DC374E0072A38F /* Flurry.h */,
+				5604045218DC374E0072A38F /* libFlurry_4.3.2.a */,
 			);
 			path = Flurry;
 			sourceTree = "<group>";
@@ -458,6 +463,7 @@
 				454E86841899178500495F94 /* SDViewController.m in Sources */,
 				454E867B1899178500495F94 /* SDAppDelegate.m in Sources */,
 				45E8C39718A8F86500E2B29A /* SDMoreAppsCell.m in Sources */,
+				5604045618DC45C80072A38F /* SDTestViewController.m in Sources */,
 				45B1F74B189B8CFC0077F6CA /* SDWikipediaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,7 +590,9 @@
 				INFOPLIST_FILE = "InterestingPeople/InterestingPeople-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/sanket/Documents/GitHub\\ Projects/InterestingPeople/Flurry",
+					/Users/sanket/Documents/GitHub,
+					Projects/InterestingPeople/Flurry,
+					"$(PROJECT_DIR)/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -601,7 +609,9 @@
 				INFOPLIST_FILE = "InterestingPeople/InterestingPeople-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/sanket/Documents/GitHub\\ Projects/InterestingPeople/Flurry",
+					/Users/sanket/Documents/GitHub,
+					Projects/InterestingPeople/Flurry,
+					"$(PROJECT_DIR)/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

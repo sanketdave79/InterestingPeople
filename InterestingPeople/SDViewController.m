@@ -16,15 +16,21 @@
 @interface SDViewController () {
     NSArray *names, *countries ,*imagename, *description,  *age, *leaders, *actors, *sportsman, *businessman, *artists;
     
+    NSString *namestring;
+    
    
    
 }
+
+
 
 @end
 
 
 
 @implementation SDViewController
+
+@synthesize namestring;
 
 
 
@@ -39,7 +45,7 @@
     self.infoButton.layer.cornerRadius = 8.0f;
     self.settingsButton.layer.cornerRadius = 8.0f;
     
-   
+    self.someValue = @"";
     
 
 //    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 60)];
@@ -163,7 +169,7 @@
         
 
         [categories addObject:leaders];
-         NSLog(@"this is the categories array after checking categories status %@",categories);
+         //NSLog(@"this is the categories array after checking categories status %@",categories);
     }
     
      // Actors Data
@@ -313,9 +319,10 @@
     self.imageView.image = [UIImage imageNamed:tempArr[1]];
     
     NSString *name = tempArr[0];
-    
-    _someValue = tempArr[0];
-    
+    NSLog(@"name :%@", name);
+    self.someValue = tempArr[0];
+    NSLog(@"name :%@", self.someValue);
+
     self.nameLabel.text = [NSString stringWithFormat: @"Name : %@", name];
     
       NSString *country = tempArr[3];
