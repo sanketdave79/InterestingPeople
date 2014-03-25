@@ -36,8 +36,11 @@
 
 - (void)viewDidLoad
 {
+    
+   [self setNeedsStatusBarAppearanceUpdate];
+    //self.navigationController.navigationBar.tintColor = [UIColor brownColor];
    
-    //[self hidenavigationbar];
+    
     self.byclick.layer.cornerRadius = 8.0f;
     self.byshake.layer.cornerRadius = 8.0f;
     self.byswipe.layer.cornerRadius = 8.0f;
@@ -140,6 +143,11 @@
     [super viewWillDisappear:animated];
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 - (void) initializer {
     
     
@@ -223,7 +231,7 @@
     names = [NSArray arrayWithObjects:@"Dhirubhai Ambani", @"Enzo Ferrari", @"Richard Branson", @"Walt Disney", @"Ingvar Kamprad", nil];
     countries = [NSArray arrayWithObjects:@"India", @"Italy", @"UK", @"USA" ,@"Sweden",nil];
     
-    imagename = [NSArray arrayWithObjects:@"dhirubhaiambani.jpg",@"enzoferrari.jpg",@"richardbranson.jpg",@"waltdisney.jpg",@"ingvarkamprad.jpg",nil];
+    imagename = [NSArray arrayWithObjects:@"dhirubhaiambani.jpg",@"enzoferrari.jpg",@"richardbranson.jpg",@"waltdisney.jpg",@"ingvarkampar.jpg",nil];
     description = [NSArray arrayWithObjects:@"Dhirajlal Hirachand Ambani (28 December 1932 – 6 July 2002), better known as Dhirubhai Ambani, was an Indian business tycoon who founded Reliance Industries in Mumbai with his cousin. He figured in The Sunday Times list of top 50 businessmen in Asia.[3] Ambani took Reliance Industries public in 1977, and by 2007 the combined fortune of the family was $60 billion, making the Ambanis the second richest family in the world. Ambani died on 6 July 2002.[4]",@"Enzo Anselmo Ferrari (pronounced [ˈɛntso anˈsɛlmo ferˈrari]; February 18, 1898[2] – August 14, 1988) Cavaliere di Gran Croce OMRI[3] was an Italian motor racing driver and entrepreneur, the founder of the Scuderia Ferrari Grand Prix motor racing team, and subsequently of the Ferrari automobile marque.",@"Richard Charles Nicholas Branson (born 18 July 1950) is an English business magnate and investor. He is best known as the founder of Virgin Group, which comprises more than 400 companies.",@"Walter Elias -Walt Disney (/ˈdɪzni/;[2] December 5, 1901 – December 15, 1966) was an American business magnate, animator, cartoonist, producer, director, screenwriter, entrepreneur, and voice actor",@"Ingvar Feodor Kamprad  born 30 March 1926) is a Swedish business magnate. He is the founder of IKEA, a Swedish retail company specialising in furniture.",nil];
     
     businessman = [NSArray arrayWithObjects:names,imagename, description, countries, nil];
@@ -246,7 +254,7 @@
     names = [NSArray arrayWithObjects:@"Michael Angelo", @"Leonardo Da Vinci", @"Tracey Emin", @"Pablo Picasso", @"Rabindranath Tagore", nil];
     countries = [NSArray arrayWithObjects:@"Italy", @"Italy", @"UK", @"Spain" ,@"India",nil];
     
-    imagename = [NSArray arrayWithObjects:@"michaelangelo.jpg",@"leonardodavinci.jpg",@"traceyemin.jpg",@"pablopicasso.jpg",@"rabindranathtagore.jpg",nil];
+    imagename = [NSArray arrayWithObjects:@"michelangelo.jpg",@"leonardodavinci.jpg",@"traceyemin.jpg",@"pablopicasso.jpg",@"rabindranathtagore.jpg",nil];
     description = [NSArray arrayWithObjects:@"Michelangelo di Lodovico Buonarroti Simoni  was an Italian sculptor, painter, architect, poet, and engineer of the High Renaissance who exerted an unparalleled influence on the development of Western art.",@"Leonardo di ser Piero da Vinci  April 15, 1452 – May 2, 1519, Old Style) was an Italian Renaissance polymath: painter, sculptor, architect, musician, mathematician, engineer, inventor, anatomist, geologist, cartographer, botanist, and writer",@"In 1997, her work Everyone I Have Ever Slept With 1963–1995, a tent appliquéd with names, was shown at Charles Saatchi's Sensation exhibition held at the Royal Academy in London. ",@"Pablo Ruiz y Picasso, known as Pablo Picasso (Spanish: [ˈpaβlo piˈkaso]; 25 October 1881 – 8 April 1973) was a Spanish painter, sculptor, printmaker, ceramicist, stage designer, poet and playwright who spent most of his adult life in France. As one of the greatest and most influential artists of the 20th century",@"Rabindranath Tagore was a Bengali polymath who reshaped his region's literature and music. He became first non european Noble prize winner in 1913.",nil];
     
     artists = [NSArray arrayWithObjects:names,imagename, description, countries, nil];

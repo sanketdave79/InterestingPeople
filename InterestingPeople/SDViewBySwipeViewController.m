@@ -7,6 +7,8 @@
 //
 
 #import "SDViewBySwipeViewController.h"
+#import "SDViewController.h"
+#import "SDWikipediaViewController.h"
 
 @interface SDViewBySwipeViewController ()
 
@@ -25,9 +27,13 @@
 
 - (void)swiped: (UIEventSubtype)swipe withEvent:(UIEvent *)event
 {
-    if (swipe == UISwipeGestureRecognizerDirectionRight) {
+    if (swipe == UISwipeGestureRecognizerDirectionRight  || swipe == UISwipeGestureRecognizerDirectionLeft  ) {
         [self changeProfile];
     }
+}
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    SDWikipediaViewController *wikiSwipe = [segue destinationViewController];
+    wikiSwipe.nameForURL = self.someValue;
 }
 
 - (IBAction)showGestureForSwipeRecognizer:(UISwipeGestureRecognizer *)recognizer

@@ -53,6 +53,21 @@
 		454E86AE189918EC00495F94 /* settingsImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 454E86AD189918EC00495F94 /* settingsImage.jpg */; };
 		457B50E018A265D60071E8D1 /* gandhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 457B50DF18A265D60071E8D1 /* gandhi.png */; };
 		45B1F74B189B8CFC0077F6CA /* SDWikipediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B1F74A189B8CFC0077F6CA /* SDWikipediaViewController.m */; };
+		45CCB0EB18E04728007893BD /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0DC18E04727007893BD /* Icon-72.png */; };
+		45CCB0EC18E04728007893BD /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0DD18E04727007893BD /* Icon-72@2x.png */; };
+		45CCB0ED18E04728007893BD /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0DE18E04727007893BD /* Icon-76.png */; };
+		45CCB0EE18E04728007893BD /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0DF18E04727007893BD /* Icon-76@2x.png */; };
+		45CCB0EF18E04728007893BD /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0E018E04727007893BD /* Icon-120.png */; };
+		45CCB0F018E04728007893BD /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0E118E04727007893BD /* Icon-iPad-Spotlight-iOS7@2x.png */; };
+		45CCB0F118E04728007893BD /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0E218E04727007893BD /* Icon-Small-50.png */; };
+		45CCB0F218E04728007893BD /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0E318E04727007893BD /* Icon-Small.png */; };
+		45CCB0F318E04728007893BD /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0E418E04727007893BD /* Icon-Small@2x.png */; };
+		45CCB0F418E04728007893BD /* Icon-Spotlight-iOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0E518E04727007893BD /* Icon-Spotlight-iOS7.png */; };
+		45CCB0F518E04728007893BD /* Icon-Spotlight-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0E618E04727007893BD /* Icon-Spotlight-iOS7@2x.png */; };
+		45CCB0F618E04728007893BD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0E718E04727007893BD /* Icon.png */; };
+		45CCB0F718E04728007893BD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0E818E04727007893BD /* Icon@2x.png */; };
+		45CCB0F818E04728007893BD /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0E918E04727007893BD /* iTunesArtwork */; };
+		45CCB0F918E04728007893BD /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 45CCB0EA18E04727007893BD /* iTunesArtwork@2x */; };
 		45D2A6EE18B0FFD9007ABA6D /* Font License.txt.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45D2A6EB18B0FFD9007ABA6D /* Font License.txt.txt */; };
 		45D2A6EF18B0FFD9007ABA6D /* Ketchum Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45D2A6EC18B0FFD9007ABA6D /* Ketchum Hollow.ttf */; };
 		45D2A6F018B0FFD9007ABA6D /* Ketchum.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45D2A6ED18B0FFD9007ABA6D /* Ketchum.ttf */; };
@@ -131,6 +146,21 @@
 		457B50DF18A265D60071E8D1 /* gandhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gandhi.png; sourceTree = "<group>"; };
 		45B1F749189B8CFC0077F6CA /* SDWikipediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWikipediaViewController.h; sourceTree = "<group>"; };
 		45B1F74A189B8CFC0077F6CA /* SDWikipediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWikipediaViewController.m; sourceTree = "<group>"; };
+		45CCB0DC18E04727007893BD /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		45CCB0DD18E04727007893BD /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		45CCB0DE18E04727007893BD /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		45CCB0DF18E04727007893BD /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		45CCB0E018E04727007893BD /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		45CCB0E118E04727007893BD /* Icon-iPad-Spotlight-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad-Spotlight-iOS7@2x.png"; sourceTree = "<group>"; };
+		45CCB0E218E04727007893BD /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		45CCB0E318E04727007893BD /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		45CCB0E418E04727007893BD /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		45CCB0E518E04727007893BD /* Icon-Spotlight-iOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-iOS7.png"; sourceTree = "<group>"; };
+		45CCB0E618E04727007893BD /* Icon-Spotlight-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-iOS7@2x.png"; sourceTree = "<group>"; };
+		45CCB0E718E04727007893BD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		45CCB0E818E04727007893BD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		45CCB0E918E04727007893BD /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		45CCB0EA18E04727007893BD /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
 		45D2A6E918B0FBE3007ABA6D /* todo */ = {isa = PBXFileReference; lastKnownFileType = text; path = todo; sourceTree = "<group>"; };
 		45D2A6EB18B0FFD9007ABA6D /* Font License.txt.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Font License.txt.txt"; sourceTree = "<group>"; };
 		45D2A6EC18B0FFD9007ABA6D /* Ketchum Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ketchum Hollow.ttf"; sourceTree = "<group>"; };
@@ -212,6 +242,21 @@
 		454E865E1899178500495F94 = {
 			isa = PBXGroup;
 			children = (
+				45CCB0DC18E04727007893BD /* Icon-72.png */,
+				45CCB0DD18E04727007893BD /* Icon-72@2x.png */,
+				45CCB0DE18E04727007893BD /* Icon-76.png */,
+				45CCB0DF18E04727007893BD /* Icon-76@2x.png */,
+				45CCB0E018E04727007893BD /* Icon-120.png */,
+				45CCB0E118E04727007893BD /* Icon-iPad-Spotlight-iOS7@2x.png */,
+				45CCB0E218E04727007893BD /* Icon-Small-50.png */,
+				45CCB0E318E04727007893BD /* Icon-Small.png */,
+				45CCB0E418E04727007893BD /* Icon-Small@2x.png */,
+				45CCB0E518E04727007893BD /* Icon-Spotlight-iOS7.png */,
+				45CCB0E618E04727007893BD /* Icon-Spotlight-iOS7@2x.png */,
+				45CCB0E718E04727007893BD /* Icon.png */,
+				45CCB0E818E04727007893BD /* Icon@2x.png */,
+				45CCB0E918E04727007893BD /* iTunesArtwork */,
+				45CCB0EA18E04727007893BD /* iTunesArtwork@2x */,
 				454E86701899178500495F94 /* InterestingPeople */,
 				454E86921899178500495F94 /* InterestingPeopleTests */,
 				454E86691899178500495F94 /* Frameworks */,
@@ -373,6 +418,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Techmentation;
 				TargetAttributes = {
+					454E86661899178500495F94 = {
+						DevelopmentTeam = DMLXP47AZR;
+					};
 					454E868A1899178500495F94 = {
 						TestTargetID = 454E86661899178500495F94;
 					};
@@ -402,21 +450,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45CCB0F118E04728007893BD /* Icon-Small-50.png in Resources */,
+				45CCB0ED18E04728007893BD /* Icon-76.png in Resources */,
 				4518077618D712F00087F9CF /* enzoferrari.jpg in Resources */,
+				45CCB0EE18E04728007893BD /* Icon-76@2x.png in Resources */,
 				4518078718D712F00087F9CF /* waltdisney.jpg in Resources */,
+				45CCB0F718E04728007893BD /* Icon@2x.png in Resources */,
+				45CCB0EC18E04728007893BD /* Icon-72@2x.png in Resources */,
 				4518077818D712F00087F9CF /* juliaroberts.jpg in Resources */,
 				4518078818D712F00087F9CF /* willsmith.jpg in Resources */,
+				45CCB0F218E04728007893BD /* Icon-Small.png in Resources */,
 				4518078318D712F00087F9CF /* tenzingyatso.jpg in Resources */,
 				4518077C18D712F00087F9CF /* michaeljordan.jpg in Resources */,
 				45D2A6EE18B0FFD9007ABA6D /* Font License.txt.txt in Resources */,
 				4518078618D712F00087F9CF /* traceyemin.jpg in Resources */,
 				4518077E18D712F00087F9CF /* mikhailgorbachevjpg.jpg in Resources */,
 				4518077718D712F00087F9CF /* ingvarkampar.jpg in Resources */,
+				45CCB0F918E04728007893BD /* iTunesArtwork@2x in Resources */,
 				4518077218D712F00087F9CF /* angelinajolie.jpg in Resources */,
 				4518077F18D712F00087F9CF /* pablopicasso.jpg in Resources */,
 				4518077518D712F00087F9CF /* dhirubhaiambani.jpg in Resources */,
 				457B50E018A265D60071E8D1 /* gandhi.png in Resources */,
 				4518077118D712F00087F9CF /* amitabhbachchan.jpg in Resources */,
+				45CCB0F518E04728007893BD /* Icon-Spotlight-iOS7@2x.png in Resources */,
+				45CCB0F018E04728007893BD /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				4518078518D712F00087F9CF /* tigerwoods.jpg in Resources */,
 				4518077D18D712F00087F9CF /* michelangelo.jpg in Resources */,
 				4518078018D712F00087F9CF /* rabindranathtagore.jpg in Resources */,
@@ -425,13 +482,19 @@
 				4518078118D712F00087F9CF /* richardbranson.jpg in Resources */,
 				4518077418D712F00087F9CF /* christianoronaldo.jpg in Resources */,
 				45D2A6F018B0FFD9007ABA6D /* Ketchum.ttf in Resources */,
+				45CCB0F818E04728007893BD /* iTunesArtwork in Resources */,
+				45CCB0F418E04728007893BD /* Icon-Spotlight-iOS7.png in Resources */,
 				4518077B18D712F00087F9CF /* liuxiang.jpg in Resources */,
+				45CCB0F618E04728007893BD /* Icon.png in Resources */,
 				4518078218D712F00087F9CF /* sachintendulkar.jpg in Resources */,
 				4518077A18D712F00087F9CF /* leonardodavinci.jpg in Resources */,
+				45CCB0EB18E04728007893BD /* Icon-72.png in Resources */,
 				4518077018D712F00087F9CF /* abrahamlincoln.jpg in Resources */,
 				45D2A6EF18B0FFD9007ABA6D /* Ketchum Hollow.ttf in Resources */,
+				45CCB0F318E04728007893BD /* Icon-Small@2x.png in Resources */,
 				454E86861899178500495F94 /* Images.xcassets in Resources */,
 				454E86751899178500495F94 /* InfoPlist.strings in Resources */,
+				45CCB0EF18E04728007893BD /* Icon-120.png in Resources */,
 				4518077918D712F00087F9CF /* juliuscaesar.jpg in Resources */,
 				4518078A18D841840087F9CF /* interestingpeople.png in Resources */,
 				454E86A31899179700495F94 /* Main.storyboard in Resources */,
@@ -585,6 +648,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InterestingPeople/InterestingPeople-Prefix.pch";
 				INFOPLIST_FILE = "InterestingPeople/InterestingPeople-Info.plist";
@@ -595,6 +660,8 @@
 					"$(PROJECT_DIR)/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -604,6 +671,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InterestingPeople/InterestingPeople-Prefix.pch";
 				INFOPLIST_FILE = "InterestingPeople/InterestingPeople-Info.plist";
@@ -614,6 +683,8 @@
 					"$(PROJECT_DIR)/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

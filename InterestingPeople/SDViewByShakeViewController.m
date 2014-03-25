@@ -63,8 +63,8 @@
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    SDWikipediaViewController *wiki = [segue destinationViewController];
-    wiki.nameForURL = self.someValue;
+    SDWikipediaViewController *wikiShake = [segue destinationViewController];
+    wikiShake.nameForURL = self.someValue;
 }
 
 - (void)didReceiveMemoryWarning

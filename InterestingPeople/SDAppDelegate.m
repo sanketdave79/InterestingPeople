@@ -14,11 +14,39 @@
 {
     // Override point for customization after application launch.
     
+    
+    
+    if ( ! [[NSUserDefaults standardUserDefaults] boolForKey:@"defaultValues"] ) {
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"businessman"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"artists"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"sportsman"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"actors"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"leaders"];
+        
+        
+        
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"defaultValues"];
+    }
+    
+    
+
+
+    
+    
+    
+    
+    [[UIApplication sharedApplication]
+     setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
+    
     [Flurry startSession:@"29YYZ3NG9VZNDZGKZBTR"];
     [Flurry setCrashReportingEnabled:YES];
     
     return YES;
+    //[[UINavigationBar appearance] setBarTintColor:[UIColor yellowColor]];
+    
+    
 }
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {

@@ -423,7 +423,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    
+    if ( [[NSUserDefaults standardUserDefaults] boolForKey:@"businessman"] ) {
+        NSLog(@"business man");
+    }
     
 
 }

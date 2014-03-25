@@ -8,6 +8,8 @@
 
 #import "SDViewByClickViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "SDViewController.h"
+#import "SDWikipediaViewController.h"
 
 @interface SDViewByClickViewController ()
 
@@ -23,6 +25,12 @@
     }
     return self;
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    SDWikipediaViewController *wikiClick = [segue destinationViewController];
+    wikiClick.nameForURL = self.someValue;
+}
+
 
 - (void)viewDidLoad
 {
